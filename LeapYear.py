@@ -1,3 +1,8 @@
 
 def calc_Leap(x):
-    pass
+    if x % 4 == 0:
+        print('Yes')
+        return 'Yes'
+    else:
+        print('No')
+        return 'No'    
